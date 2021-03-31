@@ -16,7 +16,7 @@ a {
     width: auto;
     text-align: center;
     background-color:#006600;
-    z-index:2;
+    z-index:1;
 }
 
 #pTop{
@@ -56,7 +56,7 @@ body {
     transition: all .5s
 }
 
-.container{
+.container .main{
     position: relative;
     display: flex;
     flex-direction: column;
@@ -184,8 +184,8 @@ body {
 
 #fixedBar {
     padding: 10px;
-    background: #fff;
-    width: auto;
+    background: orange;
+    width: 25px;
     height: 25px;
     position: fixed;
     right: 10px;
@@ -194,11 +194,11 @@ body {
     box-shadow: 0 0 20px #eee;
     box-shadow: 0 0 20px #ccc;
     cursor: pointer;
-    display: none
+    display:none;
 }
 
 #fixedBar svg {
-    color: #9e9e9e
+    color: orange;
 }
 
 @media screen and (max-width: 481px) {
@@ -223,28 +223,28 @@ body {
 
 @media screen and (min-width: 481px) {
     .container .top {
-        left: 0
+        left: 0;
     }
 }
 
 @media screen and (min-width: 482px) and (max-width: 789px) {
     .container .box .item {
-        width: 90%
+        width: 90%;
     }
 
     .container .top {
-        left: 0
+        left: 0;
     }
 }
 
 @media screen and (min-width: 790px) and (max-width: 1039px) {
     .container .box .item {
-        width: 43%
+        width: 43%;
     }
 }
 
 @media screen and (min-width: 1040px) and (max-width: 1920px) {
     .container .box .item {
-        width: 20%
+        width: 20%;
     }
 }
