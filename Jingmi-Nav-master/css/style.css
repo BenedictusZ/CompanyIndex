@@ -12,17 +12,27 @@ a {
 }
 
 #top{
-    height: 200px;
+    height: 300px;
     width: auto;
-    text-align: center;
-    background-color:#006600;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-position: center 0;
     z-index:1;
 }
 
-#pTop{
-    font-family:"微软雅黑","黑体","宋体";
+.pTop{
+    font-family: 'Open Sans', sans-serif;
     font-size:120px;
-    color: #f2f6f8;
+    color: white;
+    overflow: hidden;
+    height: 300px;
+    text-transform: uppercase;
+    display: block;
+    text-shadow: 0 8px 9px #c4b59d, 0px -2px 1px #fff;
+    font-weight: bold;
+    letter-spacing: -4px;
+    border-radius: 20px;
 }
 
 body {
